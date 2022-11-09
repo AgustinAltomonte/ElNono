@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #444;
+
+}
+
+.menu
+{
+    display: flex;
+    justify-content:flex-end;
+    background-color: rgb(151, 10, 10);
+}
+
+nav a
+{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    font: 18px 'Alice';
+}
+
+nav a:hover
+{
+    background-color: rgba(68, 68, 68, 0.493);
+    color:rgb(170, 168, 27);
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Alice';
+    color: white;
+    padding: 30px 30px;
+}
+
+.SectionImagesContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+.SectionImages
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.DivImages
+{
+    margin: 10px;
+    text-align: center;
+}
+img 
+{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding-top: 5px;
+}
+
+p
+{
+    text-align: center;
+    color: white;
+    font-family: 'Alice';
+}
+.formulario
+{
+    text-align: center;
+    width: 400px;
+    height: 340px;
+    background-color: black ;
+    margin: auto;
+    margin-top: 180px;
+    padding: 20px 30px;
+    border-top: 4px solid rgb(151, 10, 10);
+    color: white;
+    font-family: 'Alice';
+}
+.form-inicio
+{
+    text-align: center;
+    margin: 0;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(151, 10, 10);
+    font-size: 30px;
+    font-family: 'Alice';
+}
+.Campo
+{
+    width: 80%;
+    border: 1px solid rgb(151, 10, 10);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 11px 10px;
+    background-color: #9e9d9d42;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Alice';
+}
+.BotonIngresar
+{
+    margin-top: 10px;
+}
+.BotonIngresar a
+{
+    background-color: azure;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Alice';
+}
+
+.BotonIngresar a:hover
+{
+    background-color: blue;
+    color: white;
+}
+
+.OlvidarContraseña
+{
+    margin-top: 30px;
+}
+
+.IconosRedesSociales
+{
+    
+    min-height: 100px;
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.IconosRedesSociales a
+{
+    text-decoration: none;
+    font-size: 30px;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    background-color:  rgb(151, 10, 10);
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+.mapa
+{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.mapa p
+{
+    padding-top: 20px;
+    color: white;
+    font-family: 'Alice';
+}
